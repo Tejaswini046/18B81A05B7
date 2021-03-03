@@ -5,5 +5,17 @@
            <body>
                       <h1>This is first respository</h1>
                        <p>This is added in github</p>
+                       <h3> The getData() function is called its arguments and the callback is executed after the completion of getData() function. </h3>  
+<script>  
+function getData(x, y, callback){  
+document.write(" The multiplication of the numbers " + x + " and " + y + " is: " + (x*y) + "<br><br>" );  
+callback();  
+}  
+function showData(){  
+document.write(' This is the showData() method execute after the completion of getData() method.');  
+}  
+getData(20, 30, showData);  
+  
+</script>  
               </body>
 </html>
